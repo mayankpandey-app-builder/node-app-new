@@ -1,0 +1,29 @@
+{
+  "name": "ordital",
+  "private": true,
+  "homepage": "*",
+  "author": {
+    "name": "PPb",
+    "email": "ppbntl19@gmail.com"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "0.10.31",
+    "npm": "1.4.23"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "*",
+    "body-parser": "^1.8.1",
+    "ejs": "~0.8.5",
+    "express": "^4.8.5",
+    "fs": "*",
+    "lodash": "*",
+    "mongoose": "^3.8.22",
+    "q": "*",
+    "seneca": "^0.6.1",
+    "seneca-web": "^0.3.3"
+  }
+}
